@@ -1,0 +1,12 @@
+{
+    "name": "chenjiajing/apple-login-php",
+    "description": "苹果登陆 apple-signin apple-login apple-login-php SDK",
+    "authors": [
+        {
+            "name": "chenjiajing",
+            "email": "i@chenjiajing.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
