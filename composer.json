@@ -1,12 +1,45 @@
 {
-    "name": "chenjiajing/apple-login-php",
-    "description": "苹果登陆 apple-signin apple-login apple-login-php SDK",
-    "authors": [
-        {
-            "name": "chenjiajing",
-            "email": "i@chenjiajing.com"
-        }
+
+  "name": "chenjiajing/apple-login-php",
+  "description": "苹果登陆SDK apple-signin apple-login apple-login-php SDK",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "chenjiajing",
+      "email": "i@chenjiajing.com"
+    }
+  ],
+  "require": {
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "classmap": [
+
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "psr-4": {
+      "ChenJiaJing\\AppleLogin\\": "src/"
+    }
+  },
+  "keywords": [
+    "苹果登陆",
+    "apple-login-php",
+    "apple-signin",
+    "apple-login"
+  ],
+  "autoload-dev": {
+    "psr-4": {
+      "ChenJiaJing\\AppleLogin\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.0-dev"
+    },
+    "laravel": {
+      "providers": [
+      ],
+      "aliases": {
+      }
+    }
+  }
 }
