@@ -2,9 +2,9 @@
 
 namespace ChenJiaJing\AppleLogin\Lib;
 use \DomainException;
-use Firebase\JWT\BeforeValidException;
-use Firebase\JWT\ExpiredException;
-use Firebase\JWT\SignatureInvalidException;
+use ChenJiaJing\AppleLogin\Exception\BeforeValidException;
+use ChenJiaJing\AppleLogin\Exception\ExpiredException;
+use ChenJiaJing\AppleLogin\Exception\SignatureInvalidException;
 use \InvalidArgumentException;
 use \UnexpectedValueException;
 use \DateTime;
